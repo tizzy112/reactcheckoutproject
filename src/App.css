@@ -1,0 +1,83 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  background-color: navy;
+}
+.navbar h3{
+  color: #fff;
+  font-size: 20px;
+  padding: 20px;
+}
+.nav-pills{
+  display: flex;
+  justify-content: space-between;
+gap: 30px;
+list-style: none;
+text-decoration: none;
+font-size: 25px;
+color: white;
+padding: 20px;
+}
+.nav-pills a{
+  color: white;
+  text-decoration: none;
+
+}
+
+.shopping-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e7e7e7;
+  border-radius: 10px;
+  padding: 3%;
+  margin: 50px 0;
+ justify-content: space-around;
+}
+.total-price span {
+  font-size: 30px;
+}
+
+.total {
+  font-weight: bold;
+}
+.deleteAll{
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.list-products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  margin-top: 30px;
+  width: 70%;
+}
+.footer__container{
+  height: 150px;
+  width: 100%;
+  background-color: navy;
+  color: #fff;
+}
+.footer__container p{
+  text-align: center;
+  font-size: 20px;}
+
+  .card-details{
+    display: flex;
+    font-size: 30px;
+  }
+  .card-name{
+    font-size: 300px;
+    color: blue;
+  }
